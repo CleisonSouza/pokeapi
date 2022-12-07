@@ -9,7 +9,6 @@ import org.springframework.web.client.RestTemplate;
 public class Pokemon {
 
 
-
     @GetMapping (value = "/pokemons")
     private String getpokeapi(){
         String uri = "https://pokeapi.co/api/v2/pokemon/";
